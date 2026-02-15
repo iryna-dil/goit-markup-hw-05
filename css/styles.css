@@ -650,6 +650,81 @@ h2 {
 .footer-link svg {
   fill: #f4f4fd;
 }
+.footer-email {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.footere-mail-input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footere-mail-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-telegram-svg {
+  fill: #fff;
+  margin-left: 8px;
+  width: 20px;
+  height: 24px;
+}
+
+.footere-mail-input:focus {
+  outline: none;
+  border-color: #31d0aa;
+}
+
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #31d0aa;
+}
 
 .web-f {
   color: #4d5ae5;
