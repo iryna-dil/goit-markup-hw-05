@@ -594,9 +594,11 @@ h2 {
   align-items: baseline;
 }
 
-.footer-contacts,
-.footer-social,
-.footer-info {
+.footer-social {
+  margin-left: 120px;
+}
+
+.footer-contacts {
   margin-left: auto;
 }
 
