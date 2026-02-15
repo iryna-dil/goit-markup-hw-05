@@ -662,7 +662,7 @@ h2 {
 
 .footer-form {
   display: flex;
-  gap: 8px;
+  gap: 24px;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -683,13 +683,12 @@ h2 {
 }
 
 .footere-mail-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 
 .footer-telegram-svg {
   fill: #fff;
-  margin-left: 8px;
-  width: 20px;
+  width: 24px;
   height: 24px;
 }
 
@@ -759,12 +758,16 @@ h2 {
   align-items: center;
   justify-content: center;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
